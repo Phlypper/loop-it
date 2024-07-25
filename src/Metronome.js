@@ -1,7 +1,8 @@
+// eslint-disable-next-line
 import React, { useState, useEffect } from 'react';
 
 const Metronome = ({ bpm, isRecording }) => {
-  const [isPlaying, setIsPlaying] = useState(false);
+  const [isPlaying] = useState(false);
   const [audioContext, setAudioContext] = useState(null);
   const [click, setClick] = useState(null);
 
@@ -33,7 +34,7 @@ const Metronome = ({ bpm, isRecording }) => {
     } else {
       setClick(null);
     }
-  }, [bpm, isPlaying, isRecording, audioContext]);
+  }, [bpm, isPlaying, isRecording, audioContext, click]);
 
   useEffect(() => {
     const audioContext = new (window.AudioContext || window.webkitAudioContext)();

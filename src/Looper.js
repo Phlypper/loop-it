@@ -1,8 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
-import { useButton } from '@react-aria/button';
-import { useVisuallyHidden } from '@react-aria/visually-hidden';
-
-import AudioDeviceSelect from './AudioDeviceSelect';
+import React, { useState, useRef, useEffect } from 'react';import AudioDeviceSelect from './AudioDeviceSelect';
 import RecordButton from './RecordButton';
 import FileUpload from './FileUpload';
 import LoopList from './LoopList';

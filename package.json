@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@react-aria/button": "^3.9.5",
-    "@react-aria/visually-hidden": "^3.8.12",
+    "@react-aria/button": "^3.9.7",
+    "@react-aria/visually-hidden": "^3.8.14",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -14,7 +14,7 @@
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
     "react-slider": "^2.0.6",
-    "styled-components": "^6.1.11",
+    "styled-components": "^6.1.12",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
